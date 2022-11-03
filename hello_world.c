@@ -19,9 +19,9 @@ static void draw_callback(Canvas* canvas, void* ctx) {
 
     canvas_clear(canvas);
     canvas_set_font(canvas, FontPrimary);
-    canvas_draw_str(canvas, 36, 40, "aydar.media");
+    canvas_draw_str(canvas, 36, 30, "aydar.media");
     canvas_set_font(canvas, FontSecondary);
-    canvas_draw_str(canvas, 28, 46, "The only owner of this flip");
+    canvas_draw_str(canvas, 12, 46, "The only owner of this flip");
 }
 
 static void input_callback(InputEvent* input_event, void* ctx) {

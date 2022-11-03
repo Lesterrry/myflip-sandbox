@@ -1,6 +1,6 @@
 App(
     appid="hello_world",
-    name="Hello World",
+    name="WHOAMI",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="hello_world_app",
     cdefines=["APP_HELLO_WORLD"],
